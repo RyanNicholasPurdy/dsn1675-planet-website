@@ -17,3 +17,20 @@ html{
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header{
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+}
+
+nav{
+  background-color: lightgrey;
+  margin: 0%;
+}
+
+ul{
+  list-style: none;
+}
