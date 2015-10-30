@@ -15,26 +15,29 @@
   <header>
     <nav class="grid">
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
-        <h2>Venus</h2>
+        <h1>Venus</h1>
       </div>
       <div class="unit xs-1 s-1 m-2-3 l-2-3">
         <ul class="nav">
-          <li><a href="#">Planets</a></li>
+          <li class="location-box"><a href="#">Planets</a></li>
           <li><a href="moons.html">Moons</a></li>
           <li><a href="#">Exploration</a></li>
         </ul>
       </div>
     </nav>
+    <div>
+      <p class="sub-banner"><strong>Venus, the second planet in the Solar System.</strong></p>
+    </div>
   </header>
 
   <main>
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-3">
-        <img class="img-flex" src="images/venus.jpg" alt="">
+        <img class="img-flex venus-padding" src="images/venus.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-2-3">
-        <h2>Venus</h2>
-        <p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth
+        <h2 class="main-text">Venus</h2>
+        <p class="main-text">Venus is the second planet from the Sun, orbiting it every 224.7 Earth
           days. Venus is a terrestrial planet and is sometimes called Earth's "sister
           planet" because of their similar size, gravity, and bulk composition.
           However, it has also been shown to be radically different from
@@ -42,20 +45,52 @@
       </div>
     </div>
 
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter">
-        <img class="img-flex" src="images/venus-1.jpg" alt="">
-        <p>Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</p>
+    <div class="gallery">
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-3 l-1-3">
+          <img class="img-flex" src="images/venus-1.jpg" alt="">
+          <p class="text-length">Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</p>
+        </div>
+
+        <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
+          <img class="img-flex" src="images/venus-2.jpg" alt="">
+          <p class="text-length">Impact craters on the surface of Venus.</p>
+        </div>
+
+        <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
+          <img class="img-flex" src="images/venus-3.jpg" alt="">
+          <p class="text-length">Maat Mons with a vertical exaggeration of 22.5.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid table-text">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-left">
+        <h3>Orbital Characteristics</h3>
+        <dl>
+          <dt>Aphelion:</dt>
+            <dd><strong>108 939 000 km</strong></dd>
+          <dt>Perihelion:</dt>
+            <dd><strong>107 477 000 km</strong></dd>
+          <dt>Orbital period:</dt>
+            <dd><strong>224.701 d</strong></dd>
+          <dt>Average orbital speed:</dt>
+            <dd><strong>35.02 km/s</strong></dd>
+        </dl>
       </div>
 
-      <div class="unit xs-1 s-1-2 m-1-3 l-1-3 gutter">
-        <img class="img-flex" src="images/venus-2.jpg" alt="">
-        <p>Impact craters on the surface of Venus.</p>
-      </div>
-
-      <div class="unit xs-1 s-1-2 m-1-3 l-1-3 gutter">
-        <img class="img-flex" src="images/venus-3.jpg" alt="">
-        <p>Maat Mons with a vertical exaggeration of 22.5.</p>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-left">
+        <h3>Physical Characteristics</h3>
+        <dl>
+          <dt>Mean radius:</dt>
+            <dd><strong>6051.8±1.0 km</strong></dd>
+          <dt>Mass:</dt>
+            <dd><strong>4.8676×10^24 kg</strong></dd>
+          <dt>Surface gravity:</dt>
+            <dd><strong>8.87 m/s^2</strong></dd>
+          <dt>Axial tilt:</dt>
+            <dd><strong>177.36°</strong></dd>
+        </dl>
       </div>
     </div>
   </main>

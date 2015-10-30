@@ -19,19 +19,70 @@ html{
 }
 
 body{
-  margin: 0%;
+  margin: 0;
+}
+
+h1{
+  padding-left: 25px;
+}
+
+header{
+  background-color: #e2e2e2
 }
 
 nav{
-  background-color: lightgrey;
+  background-color: #cccccc;
+}
+
+.sub-banner{
+  background-color: #e2e2e2;
+  text-align: center;
+  height: 30px;
+}
+
+.location-box{
+  color: white;
+  width: auto;
+  background-color: #0074d9;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.location-box a:link{
+  color: white;
+}
+
+.gallery{
+  background-color: #efefef;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 a:link {
     text-decoration: none;
+    color: #0074d9;
+}
+
+.location-box a:link, .location-box a:visited{
+  color: white;
+}
+
+a:visited{
+  color: #0074d9;
 }
 
 ul{
   list-style: none;
+}
+
+dt{
+  padding-bottom: 5px;
+}
+
+dd{
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
 }
 
 h1{
@@ -43,10 +94,62 @@ h1{
   display: block;
 }
 
+.venus-padding{
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
 .gutter{
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+
+.gutter-left{
+  padding-left: 20px;
+}
+
+.text-length{
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.table-text{
+  background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 15em){
+  .main-text{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .venus-padding{
+    padding: 0;
+  }
+  .sub-banner{
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .gallery{
+    padding-bottom: 10px;
+  }
+  nav{
+    padding: 0px;
+  }
+  h1{
+    padding-left: 0px;
+  }
+  li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .location-box{
+    color: white;
+    width: 80%;
+    background-color: #0074d9;
+    padding: 10px;
+  }
 
 @media only screen and (min-width: 25em){
   .nav{
@@ -62,7 +165,7 @@ h1{
 @media only screen and (min-width: 38em){
   .nav{
     text-align: left;
-    padding: 0;
+    padding-bottom: 5px;
   }
   h1{
     text-align: left;
@@ -71,5 +174,8 @@ h1{
     padding-top: 1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
+  }
+  .nav li{
+    padding-left: 20px;
   }
 }
