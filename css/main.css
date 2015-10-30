@@ -219,4 +219,7 @@ h1{
     padding-right: 25px;
     padding-bottom: 25px;
   }
+  .large-text{
+    float: left;
+  }
 }
