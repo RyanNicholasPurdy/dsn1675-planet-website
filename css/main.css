@@ -30,10 +30,14 @@ nav{
   background-color: #cccccc;
 }
 
+.top-bar{
+  padding-top: 30px;
+}
+
 .sub-banner{
   background-color: #e2e2e2;
   text-align: center;
-  height: 30px;
+  padding-top: 40px;
 }
 
 .location-box{
