@@ -160,6 +160,13 @@ h1{
   .nav li{
     display: inline-block;
   }
+  .location-box{
+    color: white;
+    width: auto;
+    background-color: #0074d9;
+    padding: 10px;
+    padding-right: 20px;
+  }
 }
 
 @media only screen and (min-width: 38em){
@@ -177,5 +184,12 @@ h1{
   }
   .nav li{
     padding-left: 20px;
+  }
+  .location-box{
+    color: white;
+    width: auto;
+    background-color: #0074d9;
+    padding: 10px;
+    padding-right: 20px;
   }
 }
