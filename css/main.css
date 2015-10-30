@@ -36,14 +36,6 @@ nav{
   height: 30px;
 }
 
-.sub-banner2{
-  background-color: #e2e2e2;
-  text-align: center;
-  height: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
 .location-box{
   color: white;
   width: auto;
@@ -124,6 +116,12 @@ h1{
 
 .table-text{
   background-color: #e2e2e2;
+}
+
+.backdrop{
+  background-color: #e2e2e2;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 15em){
