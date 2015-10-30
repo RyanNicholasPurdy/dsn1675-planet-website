@@ -22,10 +22,6 @@ body{
   margin: 0;
 }
 
-h1{
-  padding-left: 25px;
-}
-
 header{
   background-color: #e2e2e2
 }
@@ -151,6 +147,12 @@ h1{
     padding: 10px;
   }
 
+@media only screen and (min-width: 20em){
+  .venus-padding{
+    padding: 0;
+  }
+}
+
 @media only screen and (min-width: 25em){
   .nav{
     text-align: center;
@@ -167,9 +169,17 @@ h1{
     padding: 10px;
     padding-right: 20px;
   }
+  .venus-padding{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 @media only screen and (min-width: 38em){
+  h1{
+    padding-left: 25px;
+  }
   .nav{
     text-align: left;
     padding-bottom: 5px;
@@ -191,5 +201,10 @@ h1{
     background-color: #0074d9;
     padding: 10px;
     padding-right: 20px;
+  }
+  .venus-padding{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
   }
 }
