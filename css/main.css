@@ -30,14 +30,9 @@ nav{
   background-color: #cccccc;
 }
 
-.top-bar{
-  padding-top: 30px;
-}
-
 .sub-banner{
   background-color: #e2e2e2;
   text-align: center;
-  padding-top: 40px;
 }
 
 .location-box{
@@ -54,8 +49,6 @@ nav{
 
 .gallery{
   background-color: #efefef;
-  padding-top: 25px;
-  padding-bottom: 50px;
 }
 
 a:link {
@@ -71,51 +64,8 @@ a:visited{
   color: #0074d9;
 }
 
-nav li{
-  padding-right: 20px;
-}
-
-ul{
-  list-style: none;
-}
-
-dt{
-  padding-bottom: 5px;
-}
-
-dd{
-  margin-left: 0;
-  padding-left: 0;
-  padding-bottom: 20px;
-}
-
 h1{
   text-align: center;
-}
-
-.img-flex{
-  width: 100%;
-  display: block;
-}
-
-.venus-padding{
-  padding-top: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-}
-
-.gutter{
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
-
-.gutter-left{
-  padding-left: 20px;
-}
-
-.text-length{
-  padding-left: 20px;
-  padding-right: 40px;
 }
 
 .table-text{
@@ -124,18 +74,6 @@ h1{
 
 .backdrop{
   background-color: #e2e2e2;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-.side-padding{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.side-padding2{
-  padding-left: 40px;
-  padding-right: 20px;
 }
 
 footer{
@@ -143,30 +81,13 @@ footer{
 }
 
 @media only screen and (min-width: 15em){
-  .main-text{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .venus-padding{
-    padding: 0;
-  }
   .sub-banner{
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .gallery{
-    padding-bottom: 10px;
-  }
-  nav{
-    padding: 0px;
-  }
   h1{
     padding-left: 0px;
-  }
-  li{
-    padding-bottom: 10px;
-    padding-top: 10px;
   }
   .location-box{
     color: white;
@@ -174,10 +95,10 @@ footer{
     background-color: #0074d9;
     padding: 10px;
   }
-
-@media only screen and (min-width: 20em){
-  .venus-padding{
+  .nav{
+    text-align: center;
     padding: 0;
+    padding-bottom: 25px;
   }
 }
 
@@ -197,11 +118,6 @@ footer{
     padding: 10px;
     padding-right: 20px;
   }
-  .venus-padding{
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-  }
 }
 
 @media only screen and (min-width: 38em){
@@ -215,11 +131,6 @@ footer{
   h1{
     text-align: left;
   }
-  .gutter{
-    padding-top: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
   .nav li{
     padding-left: 20px;
   }
@@ -229,13 +140,5 @@ footer{
     background-color: #0074d9;
     padding: 10px;
     padding-right: 20px;
-  }
-  .venus-padding{
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-  }
-  .large-text{
-    float: left;
   }
 }

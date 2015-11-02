@@ -397,6 +397,10 @@ td, th, fieldset {
   padding-right: 1.4rem;
 }
 
+.gutter-left {
+  padding-right: 1.4rem;
+}
+
 .gutter-double, .gutter-2 {
   padding-left: 2.8000rem;
   padding-right: 2.8000rem;
